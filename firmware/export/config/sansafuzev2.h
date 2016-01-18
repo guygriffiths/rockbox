@@ -180,7 +180,7 @@
 #define CURRENT_MAX_CHG   200
 
 /* Define this to the CPU frequency */
-#define CPU_FREQ      240000000
+#define CPU_FREQ      192000000
 
 /* Type of LCD */
 #define CONFIG_LCD LCD_FUZE
@@ -206,7 +206,7 @@
 #define USB_PRODUCT_ID 0x74c3   /* MSC = 0x74c3, MTP = 0x74c2 */
 
 /* Define this if you have adjustable CPU frequency */
-//#define HAVE_ADJUSTABLE_CPU_FREQ
+#define HAVE_ADJUSTABLE_CPU_FREQ
 
 #define BOOTFILE_EXT    "sansa"
 #define BOOTFILE        "rockbox." BOOTFILE_EXT
